@@ -116,6 +116,21 @@ h3 {
   text-transform: capitalize;
 }
 
+.solarCharg,
+.battery,
+.usage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightText1,
+.leftText1,
+.rightText2,
+.leftText2 {
+  width: 40%;
+}
+
+/* FOOTER */
 * {
   box-sizing: border-box;
 }
@@ -124,7 +139,7 @@ main {
   height: 100vh;
 }
 
-.solarCharg,
+<<<<<<< head .solarCharg,
 .battery,
 .usage {
   display: flex;
