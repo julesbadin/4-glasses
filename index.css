@@ -48,6 +48,17 @@ header div a:last-child {
   text-decoration: none;
   font-weight: lighter;
 }
+header div a:last-child:hover {
+  color: #f6a976;
+  border: 1px solid #f6a976;
+  background-color: white;
+}
+
+header div a:first-child:hover {
+  background-color: #f6a976;
+  color: white;
+}
+
 
 .header-baseline {
   position: absolute;
@@ -157,7 +168,7 @@ main {
   padding: 10px;
 }
 
-.textAbySolo {
+.abySolo p {
   width: 40%;
   padding: 10px;
 }
