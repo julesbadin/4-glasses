@@ -147,6 +147,7 @@ main {
   max-height: 60vh;
   display: flex;
   flex-direction: column;
+  margin: 0 40px;
   background: url("./images/image-aby-street.jpg") no-repeat center center fixed;
 }
 .text-content {
