@@ -57,18 +57,19 @@ header div a:last-child {
 
 .side-navbar {
   position: fixed;
-  top: 25%;
+  z-index: 100;
+  top: 15%;
   right: 5%;
   display: flex;
   flex-direction: column;
   border-radius: 100px;
   padding: 25px;
-  border: 1px solid black;
 }
 
 .side-navbar img {
   padding: 25px 0;
-  width: 20px;
+  margin: 50px 0;
+  width: 22px;
 }
 
 nav p {
@@ -139,8 +140,36 @@ main {
   height: 100vh;
 }
 
-head .solarCharg,
+/* section 1 */
+
+.abySolo {
+  display: flex;
+  flex-direction: column;
+  background: url("./images/image-aby-street.jpg") no-repeat center center fixed;
+}
+
+.titleAbySolo {
+  padding: 10px;
+}
+
+.textAbySolo {
+  width: 40%;
+  padding: 10px;
+}
+/* section 2 */
+.solarCharg,
 .battery,
+.usage {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rightText,
+.leftText {
+  width: 40%;
+}
+
+.solarCharg,
 .usage {
   display: flex;
   justify-content: space-around;
