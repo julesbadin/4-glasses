@@ -64,7 +64,6 @@ header div a:last-child {
   flex-direction: column;
   border-radius: 100px;
   padding: 25px;
- 
 }
 
 .side-navbar img {
@@ -121,7 +120,8 @@ h3 {
 .battery,
 .usage {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 50px 0;
 }
 
 .rightText1,
@@ -139,7 +139,6 @@ h3 {
 main {
   height: 100vh;
 }
-
 
 /* section 1 */
 
@@ -160,18 +159,9 @@ main {
 
 .textAbySolo {
   width: 40%;
- padding: 10px;;
+  padding: 10px;
 }
 /* section 2 */
-.solarCharg, .battery, .usage {
-    display: flex;
-    justify-content: space-around;
-  }
-
-.rightText, .leftText {
-    width: 40%;
-  }
-
 .solarCharg,
 .battery,
 .usage {
@@ -184,6 +174,16 @@ main {
   width: 40%;
 }
 
+.solarCharg,
+.usage {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rightText,
+.leftText {
+  width: 40%;
+}
 
 footer {
   height: 300px;
