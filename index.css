@@ -144,9 +144,13 @@ main {
 /* section 1 */
 
 .abySolo {
+  max-height: 60vh;
   display: flex;
   flex-direction: column;
   background: url("./images/image-aby-street.jpg") no-repeat center center fixed;
+}
+.text-content {
+  margin: 100px 0 0 100px;
 }
 
 .titleAbySolo {
