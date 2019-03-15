@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,500");
 header,
 section {
-  height: 150vh; }
+  min-height: 100vh;
+}
 
 header {
   /* background-image: url("https://picsum.photos/1920/1080/?random"); */
   width: 100%;
   position: relative;
+}
+
+section {
+  background-color: white;
 }
 
 nav {
@@ -21,15 +26,38 @@ header > img {
   left: 20%;
 }
 
+header div {
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+}
+
+header div a:first-child {
+  color: #f6a976;
+  border: 1px solid #f6a976;
+  padding: 15px 25px;
+  margin-right: 25px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+header div a:last-child {
+  background-color: #f6a976;
+  color: white;
+  padding: 15px 25px;
+  margin-right: 25px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
 .header-baseline {
   position: absolute;
-  bottom: 20%;
+  bottom: 45%;
   right: 20%;
 }
 
 .side-navbar {
   position: fixed;
-  z-index: 100;
+  /* z-index: 100; */
   top: 25%;
   right: 5%;
   display: flex;
@@ -96,21 +124,23 @@ main {
   height: 100vh;
 }
 
+.solarCharg,
+.battery,
+.usage {
+  display: flex;
+  justify-content: space-around;
+}
 
-.solarCharg, .battery, .usage {
-    display: flex;
-    justify-content: space-around;
-  }
-
-.rightText, .leftText {
-    width: 40%;
-  }
-
+.rightText,
+.leftText {
+  width: 40%;
+}
 
 footer {
   height: 300px;
   background-color: #92b8c3;
   position: relative;
+  margin: -10px;
 }
 footer .footer__inner {
   position: fixed;
