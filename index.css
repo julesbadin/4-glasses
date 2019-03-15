@@ -57,13 +57,8 @@ header div a:last-child {
 
 .side-navbar {
   position: fixed;
-<<<<<<< HEAD
   z-index: 100;
   top: 15%;
-=======
-  /* z-index: 100; */
-  top: 25%;
->>>>>>> a08e29bb0c9704dece3ce13860f6765e33deceb1
   right: 5%;
   display: flex;
   flex-direction: column;
@@ -145,13 +140,13 @@ main {
   height: 100vh;
 }
 
-<<<<<<< HEAD
+
 /* section 1 */
 
 .abySolo {
   display: flex;
   flex-direction: column;
-  background: url(./images/image-aby-street.jpg) no-repeat center center fixed;
+  background: url("./images/image-aby-street.jpg") no-repeat center center fixed;
 }
 
 .titleAbySolo {
@@ -172,8 +167,7 @@ main {
     width: 40%;
   }
 
-=======
-<<<<<<< head .solarCharg,
+.solarCharg,
 .battery,
 .usage {
   display: flex;
@@ -184,7 +178,7 @@ main {
 .leftText {
   width: 40%;
 }
->>>>>>> a08e29bb0c9704dece3ce13860f6765e33deceb1
+
 
 footer {
   height: 300px;
