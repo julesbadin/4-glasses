@@ -94,17 +94,25 @@ h1 {
   font-size: 2em;
   font-weight: 500;
   text-transform: capitalize;
+  letter-spacing: 50px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  /* border: 1px solid black; */
 }
 
 h2 {
   font-size: 1.5em;
-  font-weight: 500;
+  font-weight: bolder;
   text-transform: capitalize;
+  position: relative;
 }
 
 h3 {
-  font-size: 1.2em;
-  font-weight: 500;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding-left: 30%;
+
   text-transform: capitalize;
 }
 
@@ -135,14 +143,11 @@ main {
 /* section 1 */
 
 .abySolo {
-  max-height: 60vh;
   display: flex;
   flex-direction: column;
-  margin: 0 40px;
   background: url("./images/image-aby-street.jpg") no-repeat center center fixed;
-}
-.text-content {
-  margin: 100px 0 0 100px;
+  margin: 0 30px;
+  padding: 5%;
 }
 
 .titleAbySolo {
@@ -213,6 +218,16 @@ footer nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer div img {
+  width: 50px;
 }
 
 /*# sourceMappingURL=index.css.map */
